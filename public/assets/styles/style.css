@@ -47,7 +47,6 @@ html{
     background-image: url('assets/images/back.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     height: 750px;
     padding: 2rem 3rem 2rem 3rem;
 }
@@ -70,9 +69,10 @@ html{
 /* .btns{
     width: auto;
 } */
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .btn, .btn1{
     padding: 1.5rem;
@@ -88,6 +88,7 @@ nav{
     outline: none;
     border: none;
     margin-right: 5px;
+    flex: 1;
 }
 .btn1{
     border: 2px solid white;
@@ -98,6 +99,9 @@ nav{
     font-size: 70px;
     line-height: 1;
     font-weight: bold;
+}
+#logo{
+    flex: 1;
 }
 .text-part{
     padding-top: 3rem;

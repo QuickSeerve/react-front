@@ -17,8 +17,8 @@ const NavBar = ()=>{
             <a href="#">Sign Up as a Professional</a>
         </div>
     </div>
-    <div className="one">
-    <nav>
+    <div className="one" style={{backgroundImage: "url(assets/images/back.png)"}}>
+    <nav className="nav">
         <div id="logo">
             <img src="assets/images/logo.png" alt="quickseerve logo" />
         </div>
